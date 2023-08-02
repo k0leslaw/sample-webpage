@@ -68,6 +68,14 @@ body, p {
 
 .quote {
     background-color: #E5E7EB;
+
+    height: 400px;
+    padding: 0 342px;
+
+    justify-content: center;
+
+    flex-direction: column;
+    display: flex;
 }
 
 .footer {
@@ -110,6 +118,12 @@ body, p {
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    margin-right: 16px;
+    align-self: flex-end;
 }
 
 .rand-info-header-text {
